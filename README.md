@@ -8,4 +8,6 @@
 
 #### You can connect with me on - [LinkedIn](https://www.linkedin.com/in/ujwalmaradkar)
 
-#### A little progress everyday will go a very long way
+#### A little progress every day will go a very long way
+
+![Final page screenshot](https://github.com/user-attachments/assets/721ced53-e416-4d69-8fe5-594b488199f1)
