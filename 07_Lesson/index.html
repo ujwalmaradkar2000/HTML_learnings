@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Ujwal Maradkar" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning how to create as I learn HTML"
+    />
+    <link rel="icon" href="icons8-html5-48.png" type="image/x-icon" />
+    <title>My First Web Page</title>
+    <!-- Relative reference to style.css -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Goals fot the Year!</h1>
+
+      <nav aria-labelledby="primary-navigation">
+        <h2 id="primary-navigation">Primary Navigation</h2>
+        <ul>
+          <li><a href="#html">Learn HTML</a></li>
+          <li><a href="#vacation">Planning a Vacation</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+    <main>
+      <article id="html">
+        <h2>I'm ready to learn HTML</h2>
+        <p>This is my first web page.</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="/06_Lesson/img/html_logo_300x300.png"
+            alt="HTML5 logo"
+            title="I am learning HTML5"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p>
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+          </figure>
+        </section>
+        <section>
+          <h3>My Daily Schedule</h3>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li>... I learn more about web dev.</li>
+            <li>... I plan out my schedule.</li>
+            <li>
+              ... I use resources from
+              <abbr title="Mozilla Developer Network">
+                <!-- Absolute reference to mdn website -->
+                <a href="https://developer.mozilla.org/"> MDN </a></abbr
+              >.
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark> number of hours</mark> I code per day?
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8 am</time> and I write code
+                for <time datetime="PT3H">3 hours</time> a day!
+              </p>
+            </details>
+          </aside>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="vacation">
+        <h2>I'm also planning a VacationL</h2>
+        <p>I've been working hard and <em>really need a getaway</em>.</p>
+        <p>
+          I live in <abbr title="Maharashtra">MH</abbr> , maybe I'll go to Goa.
+        </p>
+
+        <section>
+          <h3>Places I'd like to visit</h3>
+          <ul>
+            <li>
+              <p>I'hv heard good things about Goa and Puduchhery.</p>
+              <figure>
+                <img
+                  src="/06_Lesson/img/caribbean.jpg"
+                  alt="Goa Beach"
+                  title="I want to visit a Goa Beach."
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                />
+                <figcaption>Goa beach Getaway</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I've heard good things about going here:</p>
+
+              <address>
+                Nigoda Island Reserve <br />
+                North Goa, India 431002.
+              </address>
+              <figure>
+                <img
+                  src="/06_Lesson/img/vacation.jpg"
+                  alt="Nigoda Island"
+                  title="It's 5 0'clock Somewhere"
+                  loading="lazy"
+                  width="400"
+                  height="267"
+                />
+                <figcaption>New Beach to discover</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+        <!-- TODO: Add more places -->
+         <!-- <div></div>
+         <span></span> -->
+        <section>
+          <h3>Places I want to avoid</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+            <dt>South Pole</dt>
+            <dd>This is also cold</dd>
+            <dt>Mountain Top</dt>
+            <dd>These are also cold.</dd>
+          </dl>
+        </section>
+      </article>
+    </main>
+    <hr />
+    <br />
+    <footer>
+      <p>
+        &lt; &lt; &lt;&copy;
+        <a href="about.html">Ujwal Maradkar</a> &gt;&gt;&gt;
+      </p>
+      <p>
+        <a href="#">Back to Top</a>
+      </p>
+    </footer>
+  </body>
+  <!-- Avoid absolute urls for internal navingation -->
+  <!-- Keep your link text short. Exact topic. Not sentences  -->
+  <!-- Avoid 'links to' phrase -->
+</html>
