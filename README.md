@@ -7,3 +7,5 @@
 #### You only need a web browser [chrome](https://www.google.com/chrome/), code editor [VS Code](https://code.visualstudio.com/) and Internet to start coding in HTML
 
 #### You can connect with me on - [LinkedIn](https://www.linkedin.com/in/ujwalmaradkar)
+
+#### A little progress everyday will go a very long way
